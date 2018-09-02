@@ -1,0 +1,29 @@
+{
+  "name": "webhooknode",
+  "version": "1.0.0",
+  "description": "'Webhook to receive Conekta Notifications'",
+  "main": "webhook.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danrnr12/webhookConekta.git"
+  },
+  "keywords": [
+    "webhook",
+    "node"
+  ],
+  "author": "DanielDiner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danrnr12/webhookConekta/issues"
+  },
+  "homepage": "https://github.com/danrnr12/webhookConekta#readme",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "node-rsa": "^1.0.0"
+  }
+}
